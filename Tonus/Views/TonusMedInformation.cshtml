@@ -1,0 +1,29 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+    Layout = "Shared/tonusMedLayout.cshtml";
+    var pageTitle = string.IsNullOrWhiteSpace(CurrentPage.Title)
+       ? CurrentPage.Name
+       : CurrentPage.Title;
+}
+
+<div id="main-wrapper">
+    <div id="main" class="container">
+        <div class="row">
+            <div class="12u skel-cell-mainContent">
+                <div class="content content-left">
+                    <header>
+                        <h2>@pageTitle</h2>
+                    </header>
+                   
+                    <article class="is-page-content">
+                        <section>
+                            <!-- Tonus Medical Centre Information section Content -->
+                            @CurrentPage.ActivitiesInformation
+                        </section>                           
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

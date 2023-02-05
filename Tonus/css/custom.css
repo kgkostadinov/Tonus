@@ -1,0 +1,62 @@
+﻿.emailForm {
+    width:100%; 
+}
+
+.emailForm input, .emailForm textarea {
+    width: 95%;
+    border-radius: 5px;
+}
+
+.emailForm textarea {
+    height: 200px;
+}
+
+.emailBtn {
+    margin-top: 20px;
+}
+
+.btnSendMessage {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #F3716C;
+    font-size: 24px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 20px 0;
+    width: 220px;
+    height: 30px;
+    background: #F3716C;
+    /*border: 1px solid #F3716C;*/
+    color: #FFF;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+    .btnSendMessage:hover, .btnSendMessage:active {
+        text-decoration: none;
+        color: #F3716C;
+        /*border-color: #F3716C;*/
+        background: #FFF ;
+    }
+
+    .btnSendMessage span {
+        display: inline-block;
+        position: relative;
+        padding-right: 0;
+        width: 170px;
+        margin-top: 30px;
+        transition: padding-right 0.5s;
+    }
+
+    .btnSendMessage:hover span:after, .btnSendMessage:active span:after {
+        transition: opacity 0.5s, top 0.5s, right 0.5s;
+        opacity: 1;
+        /*border-color: #F3716C;*/
+        right: 0;
+        top: 50%;
+    }

@@ -1,0 +1,343 @@
+﻿/*
+	TXT 2.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+body {
+    min-width: 1200px;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    margin: 0 0 0.5em 0;
+}
+
+h2 {
+    font-size: 1.65em;
+}
+
+    h2.major {
+        font-size: 1.65em;
+        text-align: center;
+        margin: 0 0 3em 0;
+    }
+
+        h2.major span {
+            top: -0.775em;
+            padding: 0 1.5em 0 1.5em;
+        }
+
+#footer h2.major {
+    margin: 0 0 1em 0;
+}
+
+.sidebar h2.major {
+    text-align: left;
+    margin: 0 0 1em 0;
+}
+
+    .sidebar h2.major span {
+        padding-left: 0;
+    }
+
+h3 {
+    font-size: 1.25em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+.button {
+    font-size: 1.25em;
+    padding: 0.85em 1.85em 0.85em 1.85em;
+}
+
+.button-big {
+    font-size: 1.65em;
+    padding: 0.85em 1.85em 0.85em 1.85em;
+}
+
+.actions {
+    text-align: center;
+    margin: 2em 0 0 0;
+}
+
+    .actions .button {
+        margin: 0 0.5em 0 0.5em;
+    }
+
+/*********************************************************************************/
+/* Section + Article Types                                                       */
+/*********************************************************************************/
+
+.is-highlight {
+}
+
+    .is-highlight .special {
+        margin: 0 0 4em 0;
+    }
+
+    .is-highlight h2 {
+        font-size: 3em;
+        margin: 0 0 0.75em 0;
+    }
+
+    .is-highlight .byline {
+        font-size: 1.65em;
+        margin: 0 0 1.5em 0;
+    }
+
+.is-feature {
+    text-align: center;
+}
+
+.is-post {
+}
+
+    .is-post header {
+        margin: 0 0 2.5em 0;
+    }
+
+    .is-post h3 {
+        font-size: 3em;
+        margin: 0 0 0.5em 0;
+    }
+
+    .is-post .byline {
+        font-size: 1.65em;
+        margin: 0 0 0.5em 0;
+    }
+
+    .is-post ul.meta {
+        margin: 0 0 0.5em 0;
+    }
+
+.is-post-summary {
+}
+
+    .is-post-summary h3 {
+        line-height: 1em;
+        margin: 0 0 0.75em 0;
+    }
+
+    .is-post-summary .meta {
+        margin: 0;
+        line-height: 1em;
+    }
+
+.is-page-content {
+}
+
+    .is-page-content header {
+        margin: 0 0 2.5em 0;
+    }
+
+    .is-page-content h2 {
+        font-size: 3em;
+        margin: 0 0 0.5em 0;
+    }
+
+    .is-page-content .byline {
+        font-size: 1.65em;
+        margin: 0 0 0.5em 0;
+    }
+
+    .is-page-content ul.meta {
+        margin: 0 0 0.5em 0;
+    }
+
+/*********************************************************************************/
+/* Sidebar + Content                                                             */
+/*********************************************************************************/
+
+.sidebar {
+    padding-top: 0.5em;
+}
+
+.homepage .sidebar {
+    padding-top: 0;
+}
+
+.content-left {
+    padding-right: 2em;
+}
+
+.content-right {
+    padding-left: 2em;
+}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+#banner-wrapper {
+    padding: 8em 0 8em 0;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+#header {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #fff;
+    margin: 0 auto;
+}
+
+    #header .logo {
+        position: relative;
+        text-align: center;
+    }
+
+        #header .logo div {
+            background: #fff;
+            position: relative;
+            display: inline-block;
+            padding: 1.5em 1.5em 1.5em 1.5em;
+        }
+
+        #header .logo h1,
+        #header .logo .byline {
+            display: inline;
+        }
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+@import url(http://fonts.googleapis.com/css?family=Nunito:300);
+
+#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+    border-bottom: solid 10px #DDF8B5;
+    height: 7.7em;
+    line-height: 8em;
+    text-align: right;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#logoContainer {
+    float: left;
+}
+
+#logoImage{
+    width: 324px;
+}
+
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #F3716C;
+    font-size: 24px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    margin: 10px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 20px 0;
+    width: 220px;
+    height: 30px;
+    background:#FFF;
+    /*border: 1px solid #F3716C;*/
+    color: #F3716C;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+    .btn:hover, .btn:active {
+        text-decoration: none;
+        color: #FFF;
+        /*border-color: #F3716C;*/
+        background: #F3716C ;
+    }
+
+    .btn span {
+        display: inline-block;
+        position: relative;
+        padding-right: 0;
+        width: 170px;
+        transition: padding-right 0.5s;
+    }
+
+    .btn:hover span:after, .btn:active span:after {
+        transition: opacity 0.5s, top 0.5s, right 0.5s;
+        opacity: 1;
+        /*border-color: #F3716C;*/
+        right: 0;
+        top: 50%;
+    }
+
+.current_page_item {
+    background: #F3716C;
+    color: #FFF;
+}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+#banner {
+    padding: 5em 0 5em 0;
+}
+
+    #banner h2 {
+        font-size: 2.75em;
+        margin: 0 0 0.75em 0;
+    }
+
+    #banner .byline {
+        font-size: 1.35em;
+        margin: 0 0 1.75em 0;
+    }
+
+    #banner .button {
+        font-size: 1.5em;
+    }
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+#main {
+    padding: 0 0 4em 0;
+}
+
+    #main > .row {
+        padding: 3em 0 3em 0;
+    }
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+#footer {
+    text-align: center;
+    padding: 4em 0 4em 0;
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+#copyright {
+    margin: 4em 0 0 0;
+}
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
